@@ -1,0 +1,29 @@
+# Go build output
+/bin/
+/obj/
+
+# Executables
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binaries
+*.test
+
+# Dependency directories (if using Go modules, you can ignore vendor if checked in)
+vendor/
+
+# Firebase service account (never commit secrets)
+serviceAccountKey.json
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
